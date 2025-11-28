@@ -19,7 +19,7 @@ sudo apt install rancher-desktop
 curl -sS https://webinstall.dev/k9s | bash
 ```
 
-## 3. After the installation, I got this in the terminal:
+## 3. After the installation, this appears in the terminal:
 
 ```
 Installed 'k9s v0.50.16' as ~/.local/bin/k9s
