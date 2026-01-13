@@ -34,7 +34,7 @@ Installed 'k9s v0.50.16' as ~/.local/bin/k9s
     (newly opened terminal windows will update automatically)
 ```
 
-## 4. Run this command to add path so you can run k9 from anywhere
+## 4. Run this command to add path so you can run k9s from anywhere
 
 ```bash
 source ~/.config/envman/PATH.env
