@@ -37,7 +37,9 @@ k9s version
 ```
 
 ## To update to a newer version in the future
-# download new version
+
+## download a new version
+
 ```bash
 curl -LO https://github.com/derailed/k9s/releases/download/vX.X.X/k9s_Linux_amd64.deb
 
