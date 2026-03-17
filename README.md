@@ -19,24 +19,31 @@ sudo apt install rancher-desktop
 curl -sS https://webinstall.dev/k9s | bash
 ```
 OR
-# Install using APT
+
+## Install using APT
 Download latest .deb
+```bash
 VERSION=$(curl -s https://api.github.com/repos/derailed/k9s/releases/latest | grep tag_name | cut -d '"' -f 4)
 
 curl -LO https://github.com/derailed/k9s/releases/download/${VERSION}/k9s_Linux_amd64.deb
+```
 
 Install with APT
+```bash
 sudo apt install ./k9s_Linux_amd64.deb
 
 Verify
 k9s version
+```
 
-# To update to a newer version in the future
+## To update to a newer version in the future
 # download new version
+```bash
 curl -LO https://github.com/derailed/k9s/releases/download/vX.X.X/k9s_Linux_amd64.deb
 
 # upgrade via apt
 sudo apt install ./k9s_Linux_amd64.deb
+```
 
 
 ## 3. After the installation, this appears in the terminal:
